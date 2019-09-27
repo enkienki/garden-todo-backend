@@ -29,7 +29,7 @@ app.use(express.json());
 
 // Seeds for Database
 /* const seedDBTodo = require('./database/seedDBTodo')
-seedDBTodos()
+seedDBTodo()
 const seedDBTodoDescription = require('./database/seedDBTodoDescription')
 seedDBTodoDescription() */
 
