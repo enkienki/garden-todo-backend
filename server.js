@@ -4,6 +4,7 @@ const express = require('express')
 const cors = require('cors')
 const mongoose = require('mongoose')
 
+const getCityCoordinates = require('./controllers/geocoding')
 const getPastTimeWeather = require('./controllers/pastDaysWeather')
 const getWeatherForecast = require('./controllers/weatherForecast')
 const handleTodo = require('./controllers/todo')
@@ -33,6 +34,7 @@ const seedDBTodoDescription = require('./database/seedDBTodoDescription')
 seedDBTodoDescription() */
 
 // Routes
+router.get('/geocoding/:userinput', (req, res) => getCityCoordinates(req, res));
 router.get('/pastdaysweather/:lat,:long,:pastdays', (req, res) => getPastTimeWeather(req, res));
 router.get('/weatherforecast/:lat,:long', (req, res) => getWeatherForecast(req, res));
 router.get('/todo', (req, res) => handleTodo(req, res));
