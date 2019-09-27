@@ -4,6 +4,8 @@ const express = require('express')
 const cors = require('cors')
 const mongoose = require('mongoose')
 
+const getPastTimeWeather = require('./controllers/pastDaysWeather')
+const getWeatherForecast = require('./controllers/weatherForecast')
 const handleTodo = require('./controllers/todo')
 const handleTodoDescription = require('./controllers/todoDescription')
 
@@ -31,6 +33,8 @@ const seedDBTodoDescription = require('./database/seedDBTodoDescription')
 seedDBTodoDescription() */
 
 // Routes
+router.get('/pastdaysweather/:lat,:long,:pastdays', (req, res) => getPastTimeWeather(req, res));
+router.get('/weatherforecast/:lat,:long', (req, res) => getWeatherForecast(req, res));
 router.get('/todo', (req, res) => handleTodo(req, res));
 router.get('/todoDescription/:tag', (req, res) => handleTodoDescription(req, res));
 
