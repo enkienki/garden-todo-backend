@@ -31,7 +31,7 @@ app.use(express.json());
 /* const seedDBTodo = require('./database/seedDBTodo')
 seedDBTodo()
 const seedDBTodoDescription = require('./database/seedDBTodoDescription')
-seedDBTodoDescription() */
+seedDBTodoDescription() */ 
 
 // Routes
 router.get('/geocoding/:userinput', (req, res) => getCityCoordinates(req, res));

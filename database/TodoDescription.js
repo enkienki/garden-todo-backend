@@ -259,8 +259,8 @@ const todoDescription = [
              "Couper au couteau à la base de la pomme, les variétées d'hivers se conservent sur pied et sont récoltées au fur et à mesure des besoins."
          },
          {
-           tag: "chou-rave",
-           titre: "chou-rave",
+           tag: "choux-rave",
+           titre: "choux-rave",
            levée: "# à # jours",
            compost: "#kg/10m²",
            semis:

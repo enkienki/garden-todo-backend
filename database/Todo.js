@@ -196,7 +196,7 @@ const todos = [
          },
          {
            title: "Sospitales Aethiopia medentur quae nobilitat",
-           tag: "choux rave",
+           tag: "choux-rave",
            weekNum: 40
          },
          {
@@ -236,7 +236,7 @@ const todos = [
          },
          {
            title: "Sospitales Aethiopia medentur quae nobilitat",
-           tag: "choux rave",
+           tag: "choux-rave",
            weekNum: 48
          },
          {
@@ -456,7 +456,7 @@ const todos = [
          },
          {
            title: "Sospitales Aethiopia medentur quae nobilitat",
-           tag: "choux rave",
+           tag: "choux-rave",
            weekNum: 40
          },
          {
@@ -496,7 +496,7 @@ const todos = [
          },
          {
            title: "Sospitales Aethiopia medentur quae nobilitat",
-           tag: "choux rave",
+           tag: "choux-rave",
            weekNum: 48
          },
          {
@@ -715,7 +715,7 @@ const todos = [
          },
          {
            title: "Sospitales Aethiopia medentur quae nobilitat",
-           tag: "choux pomme",
+           tag: "choux-pomme",
            weekNum: 40
          },
          {
@@ -755,7 +755,7 @@ const todos = [
          },
          {
            title: "Sospitales Aethiopia medentur quae nobilitat",
-           tag: "choux rave",
+           tag: "choux-rave",
            weekNum: 48
          },
          {
